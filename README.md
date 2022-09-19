@@ -3,9 +3,9 @@ Identification of bots annotating data on Amazon Mechanical Turk crowdsourcing m
 
 This jupyter notebook proposes my solution to https://github.com/1712n/challenge/issues/77
 
-First of all, the program runs recurrent neural network that classifies text based on data with incorrect labels. After that cleanlab library is used to identify the labels based on obtained probabilities. Then the ID of annotators who made mistakes are analyzed and annotators with the higest percentage of incorrect answers are considered as bots.
+First of all, the program runs recurrent neural network that classifies text based on data with incorrect labels. After that cleanlab library is used to identify the labels based on obtained probabilities. Then the IDs of annotators who made mistakes are analyzed and annotators with the higest percentage of incorrect answers are considered as bots.
 
-list of bot ID = [
+list of bot IDs = [
   '',
   '',
   '',
