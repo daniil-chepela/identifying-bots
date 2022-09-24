@@ -13,7 +13,7 @@ list of bot IDs = [
   'A3BCKNE5CWHODZ'
 ]
 
-It would be helpful to read [this article](https://l7.curtisnorthcutt.com/confident-learning) to better understand the algorithm behind cleanlab library
+It would be helpful to read [this article](https://l7.curtisnorthcutt.com/confident-learning) to better understand the algorithm behind the cleanlab library
 
 > The central idea is that when the predicted probability of an example is greater than a per-class-threshold, we confidently count that example as actually belonging to that threshold’s class. The thresholds for each class are the average predicted probability of examples in that class. 
 
